@@ -1,0 +1,23 @@
+<!-- HTML for Product Card -->
+<div class="product-card">
+    <img src="product-image.jpg" alt="Product Image">
+    <h3>Product Name</h3>
+    <p class="price">$19.99</p>
+    <button>Add to Cart</button>
+
+</div>
+
+<!-- HTML for Navigation Bar -->
+<nav class="navbar">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Cart</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HTML for Footer -->
+<footer>
+    <p>&copy; 2023 Your E-commerce Site. All Rights Reserved.</p>
+</footer>

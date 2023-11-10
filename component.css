@@ -1,0 +1,74 @@
+<!-- HTML for Product Card -->
+<div class="product-card">
+    <img src="product-image.jpg" alt="Product Image">
+    <h3>Product Name</h3>
+    <p class="price">$19.99</p>
+    <button>Add to Cart</button>
+/* CSS for Product Card */
+.product-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.price {
+    color: green;
+    font-weight: bold;
+}
+
+/* CSS for Navigation Bar */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* CSS for Footer */
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+</div>
+
+<!-- HTML for Navigation Bar -->
+<nav class="navbar">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Cart</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HTML for Footer -->
+<footer>
+    <p>&copy; 2023 Your E-commerce Site. All Rights Reserved.</p>
+</footer>
